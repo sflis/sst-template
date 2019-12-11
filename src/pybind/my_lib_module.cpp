@@ -4,7 +4,7 @@
 
 namespace py = pybind11;
 void read_data_wrap(py::array_t<uint16_t> array){
-    read_data((uint16_t*)array.data(0),array.size());
+    read_data((uint16_t*)array.data(0), array.size());
 }
 
 
