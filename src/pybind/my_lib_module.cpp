@@ -1,5 +1,5 @@
 #include <pybind11/pybind11.h>
-#include "my_lib.h"
+#include "sst-template/my_lib.h"
 #include <pybind11/numpy.h>
 
 namespace py = pybind11;
