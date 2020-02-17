@@ -1,7 +1,6 @@
 cmake_minimum_required(VERSION 3.0 FATAL_ERROR)
 
 project(sst-template)
-find_package(pybind11 REQUIRED)
 
 add_library(my_lib SHARED src/my_lib.cpp)
 target_include_directories(my_lib PUBLIC include)
